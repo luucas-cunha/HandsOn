@@ -3,6 +3,7 @@
 
 /* Components */
 @import "./header.css";
+@import "./main.css";
 @import "./buttons.css";
 
 /* Reset CSS */
@@ -13,6 +14,7 @@
   font-size: 100%;
   font: inherit;
   font-family: 'Source Sans 3', sans-serif;
+  font-weight: 300;
   vertical-align: baseline;
   text-decoration: none;
 }
