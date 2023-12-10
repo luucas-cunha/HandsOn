@@ -1,21 +1,45 @@
-header section {
-  justify-content: space-between;
-  align-items: center;
-}
+header {
 
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  //section
+  section {
+    justify-content: space-between;
+    align-items: center;
+  }
 
-header nav ul li a {
-  margin: 0 15px;
-  color: $color-primaria;
+  //End section
 
-  transition: all 0.25s;
-}
+  //nav
+  nav {
 
-header nav ul li:hover {
-  transform: scale(1.25);
+    //ul
+    ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      //li
+      li {
+
+        //a
+        a {
+          margin: 0 15px;
+          color: $color-primaria;
+
+          transition: all 0.25s;
+        }
+
+        &:hover {
+          transform: scale(1.25);
+        }
+
+        //End a
+      }
+
+      //End li
+    }
+
+    //End ul
+  }
+
+  //End nav
 }
