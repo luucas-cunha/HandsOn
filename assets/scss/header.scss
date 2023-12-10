@@ -1,0 +1,45 @@
+header {
+
+  //section
+  section {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  //End section
+
+  //nav
+  nav {
+
+    //ul
+    ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      //li
+      li {
+
+        //a
+        a {
+          margin: 0 15px;
+          color: $color-primaria;
+
+          transition: all 0.25s;
+        }
+
+        &:hover {
+          transform: scale(1.25);
+        }
+
+        //End a
+      }
+
+      //End li
+    }
+
+    //End ul
+  }
+
+  //End nav
+}
